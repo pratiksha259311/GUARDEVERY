@@ -46,6 +46,7 @@ def check_delivery(order_id):
         }
 
 @app.route('/check_delivery', methods=['POST'])
+i tried to get the api of liama3.1 and 2 but couldn't due to some technical issue
 def check_delivery_api():
     data = request.get_json()
     order_id = data.get('order_id')
