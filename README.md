@@ -37,7 +37,8 @@ def check_delivery(order_id):
 
     # Create the final response based on discrepancies
     if not discrepancies:
-        return {"status": "success", "message": "Delivery matches the order."}
+        return {"status": "success", "message": "Delivery matchttps://github.com/pratiksha259311/GUARDEVERY/tree/mainhes the order."}
+        
     else:
         return {
             "status": "discrepancy",
